@@ -1,5 +1,5 @@
 # FormFux
-FormFux, UI Prototyp
+FormFux, UI Prototype
 
 
 # Git Commit Message Conventionen
