@@ -53,7 +53,7 @@ or in case of multiple issues:
 Closes #123, #245, #992
 ```
 
-# Examples
+## Examples
 
 ```
 feat($browser): onUrlChange event (popstate/hashchange/polling)
