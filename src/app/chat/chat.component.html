@@ -1,0 +1,11 @@
+
+<main>
+<nb-chat title="FormFux Chat" size="medium">
+    <nb-chat-message *ngFor="let msg of messages"
+                     [message]="msg.text"
+                     [reply]="msg.reply"
+                     [date]="msg.date">
+    </nb-chat-message>
+    <nb-chat-form (send)="sendUserMessage($event)" [messagePlaceholder]=""></nb-chat-form>
+  </nb-chat>
+</main>
