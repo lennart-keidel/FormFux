@@ -1,0 +1,100 @@
+.message {
+    
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+.mat-divider {
+    display: block;
+    margin: 0;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #FF9100;
+    margin-bottom: 80px;
+ }
+
+.sendbutton {
+        height: 50px; 
+        width: 50px;
+        border: 2px solid #FF9100 !important;
+        margin-left: 10px;
+        margin-top: 20px;
+}
+
+.matInput {
+    margin-top: 32px;
+    width: 1000px;
+    
+ }
+
+.input-group {
+  text-align:center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+ }
+
+ .input-group .input-group-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field.mat-form-field {
+  font-size: 12px;
+  width: 300px;
+}
+
+button.mat-stroked-button {
+  font-size: 14px;
+  height: 42px;
+  margin: 10px;
+}
+ 
+
+.input-card {
+  margin-top: 40px;
+}
+
+.inputField {
+  font-size: large;
+}
+
+
+ footer{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+
+}
+
+.bot {
+  margin-left: 4%;
+  margin-right: 45%;
+  color: #F0F0F0;
+  background-color: #2C3B55;
+}
+
+.user {
+  margin-left: 45%;
+  margin-right: 4%;
+  color: #2C3B55;
+  background-color: white;
+}
+
+
+.message-card {
+
+  margin-top: 15px; 
+  margin-bottom: 35px; 
+  border-radius: 10px !important;
+   
+}

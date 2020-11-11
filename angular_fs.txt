@@ -1,0 +1,1 @@
+You have to go to folder \node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\webpack-configs\browser.js and replace node: false, by node: { crypto: true, stream: true, fs: "empty", net: "empty", tls: "empty" }, It's working for me.

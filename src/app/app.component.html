@@ -1,19 +1,26 @@
-<nb-layout>
 
-  <nb-layout-header fixed>
+<header>
+  <mat-toolbar color="primary" height="50rem">
+    <div class="img-header" style="width: 300px;">
+      <img src="/assets/img/logo.png" class="img-scale-down">
+   </div>
+    
+  </mat-toolbar>
 
-    <div style="text-align: center;">
-    <img src="assets/logo.png" width=20%>
-  </div>
-  </nb-layout-header>
+  <header>
+    <div class="formtype">
+        <label>Antrag xyz</label>
+    </div>
+    <mat-divider [vertical]="false"></mat-divider>
+</header>
 
-  <nb-layout-column>
+</header>
 
-    <app-chat></app-chat>
-  </nb-layout-column>
+<body>
+    <router-outlet></router-outlet>
 
-  <nb-layout-footer fixed>
-  <!-- Insert footer here -->
-  </nb-layout-footer>
+</body>
 
-</nb-layout>
+<footer>
+
+</footer>

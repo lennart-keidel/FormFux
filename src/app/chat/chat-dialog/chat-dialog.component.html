@@ -1,0 +1,37 @@
+
+
+    <ng-container *ngFor="let message of messages | async">
+        <mat-card class="message-card" [ngClass]="{ 'bot': message.sentBy === 'bot', 'user': message.sentBy === 'user' }">
+            <mat-card-content>
+                <div class="message">
+                    {{ message.content }}
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </ng-container>
+
+
+    
+    <mat-card class="input-card">
+        <div class="input-group">
+            <div class="input-group-inner">
+            <mat-form-field style="width:800px !important">
+                <input class="inputField" matInput [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"
+                    placeholder="Gib deine Nachricht hier ein">
+
+            </mat-form-field><br />
+            <span>
+                <button mat-fab class="sendbutton" (click)="sendMessage()" color="#FF9100">
+                    <img src="assets/img/logo_icon.png">
+                </button>
+            </span>
+        </div>
+    </div>
+    </mat-card>
+
+
+
+<footer>
+
+
+</footer>

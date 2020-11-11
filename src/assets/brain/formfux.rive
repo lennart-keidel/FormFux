@@ -1,0 +1,25 @@
+! version = 2.0
+
+! local concat = newline
+
+! array greeting = hallo|guten tag|guten abend|gute nacht|guten abend|grüß gott|servus|hey|hi
+
++ [*](@greeting)[*]
+* <get greeted> == true => {@ hilfe}
+- <set greeted=true>Schön dass du da bist. {@ hilfe}
+
++ hilfe
+- <set helpasked=true>Wie kann ich dir helfen?\n{@ habe problem}
+
++ [*] brauche hilfe [*]
+@ hilfe
+
++ habe problem
+- Hast du Probleme mit der Lesbarkeit der Texte?
+- Hast du Fragen zu geforderten Unterlagen?
+
++ [*] habe problem [*]
+@ habe problem
+
++ *
+- Das habe ich leider nicht verstanden. Könntest du es anders formulieren?

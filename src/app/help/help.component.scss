@@ -1,0 +1,32 @@
+.accordion {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 8%;
+    margin-left: 8%;
+    background-color:white;
+    border:3px solid ;//red; 
+    border-radius: 15px;
+    border-color: #2C3B55;
+    
+  }
+
+  .accordionFirst {
+
+    margin-bottom: 1.5rem;
+    margin-right: 8%;
+    margin-left: 8%;
+    background-color:white;
+    border:3px solid ;//red; 
+    border-radius: 15px;
+    border-color: #2C3B55;
+    
+  }
+
+  .fab-button {
+    position: fixed !important;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 25px; /* Add this and change value to set the margin you want */
+    background-color: #2C3B55;
+  }
